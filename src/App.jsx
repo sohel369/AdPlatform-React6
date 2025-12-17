@@ -7,7 +7,7 @@ import CampaignCreation from './pages/CampaignCreation';
 import GeoTargeting from './pages/GeoTargeting';
 import Pricing from './pages/Pricing';
 import Analytics from './pages/Analytics';
-import LandingPage from './pages/LandingPage';
+
 import LandingPageLight from './pages/LandingPageLight';
 import DashboardDark from './pages/DashboardDark';
 import SidebarDark from './components/SidebarDark';
@@ -49,7 +49,7 @@ function App() {
             <Toaster position="top-right" richColors closeButton />
             <Routes>
                 {/* Public Routes */}
-                <Route path="/" element={<LandingPage />} />
+                <Route path="/" element={<Navigate to="/dashboard-v2" replace />} />
                 <Route path="/landing-light" element={<LandingPageLight />} />
 
                 {/* Protected/App Routes (Legacy/Light) */}
