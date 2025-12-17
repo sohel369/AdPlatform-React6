@@ -48,7 +48,7 @@ function App() {
             <Toaster position="top-right" richColors closeButton />
             <Routes>
                 {/* Public Routes */}
-                <Route path="/" element={<Navigate to="/dashboard-v2" replace />} />
+                <Route path="/" element={<Navigate to="/dashboard" replace />} />
                 <Route path="/landing-light" element={<LandingPageLight />} />
 
                 {/* Protected/App Routes (Legacy/Light) */}
