@@ -10,7 +10,6 @@ import Analytics from './pages/Analytics';
 
 import LandingPageLight from './pages/LandingPageLight';
 import DashboardDark from './pages/DashboardDark';
-import SidebarDark from './components/SidebarDark';
 import HeaderDark from './components/HeaderDark';
 
 import { Toaster } from 'sonner';
